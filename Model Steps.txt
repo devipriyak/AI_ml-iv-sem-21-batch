@@ -1,0 +1,26 @@
+Build Model Using Python
+1.Import packages
+2.Read data
+3.Display Data
+4.Store input into X varaible
+5.Print and find the shape
+6.Store target/output into y
+7.Print and find the shape
+8.DivideX ,y (Total data into) 80:20 and store it in
+X_train,X_test,Y_train,y_test using train_test_split()
+9.Print shape of x_train,x_test,y_train,y_test
+10.Call the LinearRegression() and store the instance in model varaible
+11.Apply fit() on X_train and Y_train
+12.Predict the intance 
+      y_predicted_result=model.predict(X_test)
+       
+13.Display R2 Score by comparing  y_test and y_predicted_result
+   R2=r2_score( y_test, y_predicted_result )
+
+TO check individual instance
+result=model.predict([[80]])
+print(result)
+
+
+
+
